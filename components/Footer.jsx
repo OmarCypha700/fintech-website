@@ -8,7 +8,7 @@ export default function Footer() {
           <h1 className="font-semibold">LOGO</h1>
         </div>
         <div className="flex flex-wrap items-start gap-12 md:px-12 justify-evenly">
-          <div className=" md:p6">
+          <div className=" md:p-10">
             <ul>
               <li className="font-semibold">Company</li>
               <li className="nav-link">About Us</li>
@@ -18,7 +18,7 @@ export default function Footer() {
               <li className="nav-link">FAQ</li>
             </ul>
           </div>
-          <div className=" md:p6">
+          <div className=" md:p-10">
             <ul>
               <li className="font-semibold">
                 Follow Us
@@ -44,7 +44,7 @@ export default function Footer() {
                 </li>
             </ul>
           </div>
-          <div className=" md:p6">
+          <div className=" md:p-10">
             <ul>
               <li className="font-semibold">Get In Touch</li>
               <li>contactus@gmail.com</li>

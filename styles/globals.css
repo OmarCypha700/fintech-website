@@ -5,7 +5,7 @@
 
 @layer components{
     .btn{
-        @apply rounded-full shadow px-3 py-1;
+        @apply rounded-lg shadow px-3 py-1;
     }
 
     .nav-link{
