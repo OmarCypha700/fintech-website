@@ -1,6 +1,6 @@
 export default function LandingPage() {
     return(
-        <div className='bg-yellow-100 p-4 m-4 md:p-6 md:m-6 rounded-md'>
+        <div className='bg-yellow-100 p-4 m-2 md:p-6 md:m-6 rounded-md'>
 
         <div className='flex flex-col md:flex-row gap-4 md:justify-evenly items-center '>
           <div className=' md:w-1/2'>

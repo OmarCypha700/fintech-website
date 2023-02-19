@@ -1,9 +1,10 @@
 import { Icon } from '@iconify/react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
     <>
-      <div className=" py-4 px-2 md:p-6 flex flex-col md:flex-row gap-24 justify-center items-center">
+      <div className=" py-6 px-2 md:p-6 flex flex-col md:flex-row gap-24 justify-center items-center ">
         <div className="">
           <h1 className="font-semibold">LOGO</h1>
         </div>
@@ -52,6 +53,12 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className='py-4 border-t-2'>
+        <p className='text-center'> 
+           &copy; 2023 <Link href={''}>OmarCypha</Link> & <Link href={''}>Roy</Link>
+        </p>
       </div>
     </>
   );

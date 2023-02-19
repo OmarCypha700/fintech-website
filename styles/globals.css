@@ -5,10 +5,22 @@
 
 @layer components{
     .btn{
-        @apply rounded-lg shadow px-3 py-1;
+        @apply rounded-lg shadow px-4 py-1;
     }
 
     .nav-link{
         @apply cursor-pointer hover:font-semibold; 
+    }
+
+    .testimonial-card {
+        @apply bg-slate-900 p-4 rounded-lg
+    }
+
+    .profile{
+        @apply rounded-full h-10 object-fill
+    }
+
+    .username{
+        @apply text-sm text-slate-500
     }
 }
