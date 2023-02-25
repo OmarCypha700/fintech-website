@@ -16,10 +16,8 @@ export default function Home() {
 
         <Features/>
 
-        </div>
+      </div>
       <Testimonial/>
-      
-
       <Footer />
     </>
   )

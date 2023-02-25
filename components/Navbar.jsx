@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Nav() {
   const openHamburger = () => {
     const mobileNav = document.querySelector("#mobile-nav");
@@ -14,13 +16,17 @@ export default function Nav() {
   };
 
   return (
-    <>
+    <div className="sticky">
       <div className="shadow rounded flex justify-around py-4">
+        <Link href={'/'}>
         <div className="font-bold cursor-pointer">LOGO</div>
+        </Link>
         <div className="flex ">
           <div className="hidden md:block ">
             <ul className=" flex gap-6 px-14 ">
+              <Link href={'/about'}>
               <li className="nav-link">About Us</li>
+              </Link> 
               <li className="nav-link">Blog</li>
               <li className="nav-link">Pricing</li>
               <li className="nav-link">Features</li>
@@ -86,6 +92,6 @@ export default function Nav() {
           <li>Features</li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
