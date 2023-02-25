@@ -86,7 +86,9 @@ export default function Nav() {
         </div>
 
         <ul className=" flex flex-col gap-6 py-14 font-semibold text-lg ">
+          <Link href={'/about'}>
           <li>About Us</li>
+          </Link>
           <li>Blog</li>
           <li>Pricing</li>
           <li>Features</li>
